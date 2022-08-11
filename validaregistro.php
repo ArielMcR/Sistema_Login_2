@@ -3,7 +3,7 @@
 $nome = $_COOKIE["usuario"];
 $senha = $_COOKIE["senha"];
 
-$con = new mysqli("localhost", "root", "", "vendas");
+$con = new mysqli("localhost", "root", "", "login");
 $sql = "SELECT * FROM usuarios WHERE email='$nome' AND senha='$senha'";
 $roda = $con->query($sql);
 
