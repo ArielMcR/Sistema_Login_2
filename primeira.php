@@ -1,5 +1,5 @@
 <?php
-require_once("validarestrito.php");
+require_once("validaregistro.php");
 
 
 ?>
